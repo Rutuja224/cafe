@@ -1,0 +1,388 @@
+{
+  "food": [
+    {
+      "name": "Paneer Tikka",
+      "price": 180,
+      "category": "veg",
+      "type": "Fast Food"
+    },
+    {
+      "name": "Aloo Tikki",
+      "price": 50,
+      "category": "veg",
+      "type": "Fast Food"
+    },
+    {
+      "name": "Veg Pakora",
+      "price": 80,
+      "category": "veg",
+      "type": "Fast Food"
+    },
+    {
+      "name": "Veg Samosa",
+      "price": 30,
+      "category": "veg",
+      "type": "Fast Food"
+    },
+    {
+      "name": "Pav Bhaji",
+      "price": 120,
+      "category": "veg",
+      "type": "Fast Food"
+    },
+    {
+      "name": "Dhokla",
+      "price": 60,
+      "category": "veg",
+      "type": "Fast Food"
+    },
+    {
+      "name": "Masala Papad",
+      "price": 40,
+      "category": "veg",
+      "type": "Fast Food"
+    },
+    {
+      "name": "Chana Chaat",
+      "price": 100,
+      "category": "veg",
+      "type": "Fast Food"
+    },
+    {
+      "name": "Vada Pav",
+      "price": 40,
+      "category": "veg",
+      "type": "Fast Food"
+    },
+    {
+      "name": "Sev Puri",
+      "price": 80,
+      "category": "veg",
+      "type": "Fast Food"
+    },
+    {
+      "name": "Pani Puri",
+      "price": 60,
+      "category": "veg",
+      "type": "Fast Food"
+    },
+    {
+      "name": "Veg Frankie",
+      "price": 90,
+      "category": "veg",
+      "type": "Fast Food"
+    },
+    {
+      "name": "Methi Thepla",
+      "price": 70,
+      "category": "veg",
+      "type": "Fast Food"
+    },
+    {
+      "name": "Aloo Paratha",
+      "price": 90,
+      "category": "veg",
+      "type": "Fast Food"
+    },
+    {
+      "name": "Palak Chaat",
+      "price": 100,
+      "category": "veg",
+      "type": "Fast Food"
+    },
+    {
+      "name": "Veg Hakka Noodles",
+      "price": 130,
+      "category": "veg",
+      "type": "Chinese Cuisine"
+    },
+    {
+      "name": "Chili Paneer",
+      "price": 180,
+      "category": "veg",
+      "type": "Chinese Cuisine"
+    },
+    {
+      "name": "Veg Manchurian",
+      "price": 150,
+      "category": "veg",
+      "type": "Chinese Cuisine"
+    },
+    {
+      "name": "Veg Spring Rolls",
+      "price": 120,
+      "category": "veg",
+      "type": "Chinese Cuisine"
+    },
+    {
+      "name": "Veg Fried Rice",
+      "price": 140,
+      "category": "veg",
+      "type": "Chinese Cuisine"
+    },
+    {
+      "name": "Veg Momos",
+      "price": 100,
+      "category": "veg",
+      "type": "Chinese Cuisine"
+    },
+    {
+      "name": "Chinese Bhel",
+      "price": 110,
+      "category": "veg",
+      "type": "Chinese Cuisine"
+    },
+    {
+      "name": "Paneer Manchurian",
+      "price": 180,
+      "category": "veg",
+      "type": "Chinese Cuisine"
+    },
+    {
+      "name": "Sweet Corn Soup",
+      "price": 70,
+      "category": "veg",
+      "type": "Chinese Cuisine"
+    },
+    {
+      "name": "Hot & Sour Soup",
+      "price": 80,
+      "category": "veg",
+      "type": "Chinese Cuisine"
+    },
+    {
+      "name": "Chili Garlic Noodles",
+      "price": 160,
+      "category": "veg",
+      "type": "Chinese Cuisine"
+    },
+    {
+      "name": "Fried Paneer",
+      "price": 180,
+      "category": "veg",
+      "type": "Chinese Cuisine"
+    },
+    {
+      "name": "Chowmein",
+      "price": 150,
+      "category": "veg",
+      "type": "Chinese Cuisine"
+    },
+    {
+      "name": "Vegetable Dumplings",
+      "price": 120,
+      "category": "veg",
+      "type": "Chinese Cuisine"
+    },
+    {
+      "name": "Lemon Coriander Soup",
+      "price": 75,
+      "category": "veg",
+      "type": "Chinese Cuisine"
+    },
+    {
+      "name": "Paneer Shawarma",
+      "price": 160,
+      "category": "veg",
+      "type": "Fast Food"
+    },
+    {
+      "name": "Chicken Shawarma",
+      "price": 200,
+      "category": "non-veg",
+      "type": "Fast Food"
+    },
+    {
+      "name": "Chicken Tikka",
+      "price": 180,
+      "category": "non-veg",
+      "type": "Fast Food"
+    },
+    {
+      "name": "Fish Tikka",
+      "price": 220,
+      "category": "non-veg",
+      "type": "Fast Food"
+    },
+    {
+      "name": "Butter Chicken",
+      "price": 250,
+      "category": "non-veg",
+      "type": "Fast Food"
+    },
+    {
+      "name": "Chicken Wings",
+      "price": 190,
+      "category": "non-veg",
+      "type": "Fast Food"
+    },
+    {
+      "name": "Chicken Seekh Kebab",
+      "price": 180,
+      "category": "non-veg",
+      "type": "Fast Food"
+    },
+    {
+      "name": "Chicken Pakora",
+      "price": 150,
+      "category": "non-veg",
+      "type": "Fast Food"
+    },
+    {
+      "name": "Mutton Seekh Kebab",
+      "price": 210,
+      "category": "non-veg",
+      "type": "Fast Food"
+    },
+    {
+      "name": "Fish Finger",
+      "price": 180,
+      "category": "non-veg",
+      "type": "Fast Food"
+    },
+    {
+      "name": "Tandoori Chicken",
+      "price": 200,
+      "category": "non-veg",
+      "type": "Fast Food"
+    },
+    {
+      "name": "Mutton Shami Kebab",
+      "price": 220,
+      "category": "non-veg",
+      "type": "Fast Food"
+    },
+    {
+      "name": "Fish Curry",
+      "price": 250,
+      "category": "non-veg",
+      "type": "Fast Food"
+    },
+    {
+      "name": "Chicken Biryani",
+      "price": 280,
+      "category": "non-veg",
+      "type": "Fast Food"
+    },
+    {
+      "name": "Mutton Biryani",
+      "price": 320,
+      "category": "non-veg",
+      "type": "Fast Food"
+    },
+    {
+      "name": "Chicken Fried Rice",
+      "price": 150,
+      "category": "non-veg",
+      "type": "Chinese Cuisine"
+    },
+    {
+      "name": "Mutton Fried Rice",
+      "price": 180,
+      "category": "non-veg",
+      "type": "Chinese Cuisine"
+    },
+    {
+      "name": "Chicken Hakka Noodles",
+      "price": 160,
+      "category": "non-veg",
+      "type": "Chinese Cuisine"
+    },
+    {
+      "name": "Mutton Hakka Noodles",
+      "price": 180,
+      "category": "non-veg",
+      "type": "Chinese Cuisine"
+    },
+    {
+      "name": "Chili Chicken",
+      "price": 220,
+      "category": "non-veg",
+      "type": "Chinese Cuisine"
+    },
+    {
+      "name": "Chicken Manchurian",
+      "price": 200,
+      "category": "non-veg",
+      "type": "Chinese Cuisine"
+    },
+    {
+      "name": "Fish Manchurian",
+      "price": 220,
+      "category": "non-veg",
+      "type": "Chinese Cuisine"
+    },
+    {
+      "name": "Egg Fried Rice",
+      "price": 130,
+      "category": "non-veg",
+      "type": "Chinese Cuisine"
+    },
+    {
+      "name": "Egg Hakka Noodles",
+      "price": 140,
+      "category": "non-veg",
+      "type": "Chinese Cuisine"
+    },
+    {
+      "name": "Chicken Spring Rolls",
+      "price": 120,
+      "category": "non-veg",
+      "type": "Chinese Cuisine"
+    },
+    {
+      "name": "Chicken Dumplings",
+      "price": 140,
+      "category": "non-veg",
+      "type": "Chinese Cuisine"
+    },
+    {
+      "name": "Chicken Soup",
+      "price": 90,
+      "category": "non-veg",
+      "type": "Chinese Cuisine"
+    },
+    {
+      "name": "Fish Soup",
+      "price": 100,
+      "category": "non-veg",
+      "type": "Chinese Cuisine"
+    },
+    {
+      "name": "Hot Garlic Chicken",
+      "price": 220,
+      "category": "non-veg",
+      "type": "Chinese Cuisine"
+    },
+    {
+      "name": "Egg Manchurian",
+      "price": 160,
+      "category": "non-veg",
+      "type": "Chinese Cuisine"
+    },
+    {
+      "name": "Chicken Tandoori",
+      "price": 220,
+      "category": "non-veg",
+      "type": "Chinese Cuisine"
+    },
+    {
+      "name": "Prawn Hakka Noodles",
+      "price": 230,
+      "category": "non-veg",
+      "type": "Chinese Cuisine"
+    },
+    {
+      "name": "Prawn Fried Rice",
+      "price": 220,
+      "category": "non-veg",
+      "type": "Chinese Cuisine"
+    },
+    {
+      "name": "Mutton Seekh Kebab",
+      "price": 180,
+      "category": "non-veg",
+      "type": "Fast Food"
+    }
+  ]
+}
