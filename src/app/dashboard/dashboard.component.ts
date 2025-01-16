@@ -16,6 +16,5 @@ constructor(private http:HttpClient){
 
 getFood():Observable<any>{
   return this.http.get<any>("http://localhost:3000/food");
-
 }
 }
