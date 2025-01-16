@@ -123,7 +123,11 @@
 
   {{items|json}}
 
-  
+
 
 
 <router-outlet></router-outlet>
+
+
+<input type="text" placeholder="Enter OTP" [(ngModel)]="otp">
+<button [disabled]="!(otp?.length>5) " (click)="otpverify()">Submit</button>

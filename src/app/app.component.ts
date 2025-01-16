@@ -14,4 +14,8 @@ export class AppComponent {
     this.items.push(this.item);
     this.item={}
   }
+  otp:any;
+  otpverify(){
+    alert("Working")
+  }
 }
