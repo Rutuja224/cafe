@@ -9,7 +9,7 @@ import { Observable } from 'rxjs';
 })
 export class DashboardComponent {
 tableid:any;
-foods:any[]=[]
+foods:any[]=[];
 constructor(private http:HttpClient){
   this.getFood().subscribe(x=> this.foods =x)
 }
