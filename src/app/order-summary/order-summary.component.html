@@ -1,0 +1,18 @@
+<div class="card">
+  <img class="card-img-top" src="holder.js/100x180/" alt="Title" />
+  <div class="card-body">
+    <h4 class="card-title">Table</h4>
+    <div class="card-text">
+      <div class="col-lg-6">
+        <h3>Order Summary</h3>
+        <div id="order-summary" class="card p-3">
+          <ul id="order-list" class="list-group mb-3" *ngFor="let o of orders">
+
+          </ul>
+          <h4>Total: ₹<span id="total-amount">0</span></h4>
+          <button class="btn btn-success mt-3" id="generate-bill">Generate Bill</button>
+        </div>
+      </div>
+  </div>
+</div>
+</div>

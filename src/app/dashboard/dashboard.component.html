@@ -1,114 +1,20 @@
-<div
-  class="table-responsive"
->
-  <table
-    class="table table-primary"
-  >
-
-    <tbody>
-      <tr class="">
-        <td scope="row">
-          <div class="card">
-            <img class="card-img-top" src="holder.js/100x180/" alt="Title" />
-            <div class="card-body">
-              <h4 class="card-title">Table</h4>
-              <p class="card-text">Text</p>
-            </div>
-          </div>
-
-        </td>
-        <td><div class="card">
-          <img class="card-img-top" src="holder.js/100x180/" alt="Title" />
-          <div class="card-body">
-            <h4 class="card-title">Table1</h4>
-            <button class="btn btn-success"
-            data-bs-toggle="modal"
-            (click)="tableid=1"
-            data-bs-target="#additem"
-            >
-              add item
-            </button>
-          </div>
-        </div>
-        </td>
-        <td><div class="card">
-          <img class="card-img-top" src="holder.js/100x180/" alt="Title" />
-          <div class="card-body">
-            <h4 class="card-title">Table2</h4>
-            <p class="card-text">Text</p>
-          </div>
-        </div>
-        </td>
-        <td><div class="card">
-          <img class="card-img-top" src="holder.js/100x180/" alt="Title" />
-          <div class="card-body">
-            <h4 class="card-title">Table</h4>
-            <p class="card-text">Text</p>
-          </div>
-        </div>
-        </td>
-        <td><div class="card">
-          <img class="card-img-top" src="holder.js/100x180/" alt="Title" />
-          <div class="card-body">
-            <h4 class="card-title">Table</h4>
-            <p class="card-text">Text</p>
-          </div>
-        </div>
-        </td>
-
-      </tr>
-      <tr class="">
-        <td scope="row"><div class="card">
-          <img class="card-img-top" src="holder.js/100x180/" alt="Title" />
-          <div class="card-body">
-            <h4 class="card-title">Table</h4>
-            <p class="card-text">Text</p>
-          </div>
-        </div>
-        </td>
-        <td><div class="card">
-          <img class="card-img-top" src="holder.js/100x180/" alt="Title" />
-          <div class="card-body">
-            <h4 class="card-title">Table</h4>
-            <p class="card-text">Text</p>
-          </div>
-        </div>
-        </td>
-        <td><div class="card">
-          <img class="card-img-top" src="holder.js/100x180/" alt="Title" />
-          <div class="card-body">
-            <h4 class="card-title">Table</h4>
-            <p class="card-text">Text</p>
-          </div>
-        </div>
-        </td>
-        <td><div class="card">
-          <img class="card-img-top" src="holder.js/100x180/" alt="Title" />
-          <div class="card-body">
-            <h4 class="card-title">Table</h4>
-            <p class="card-text">Text</p>
-          </div>
-        </div>
-        </td>
-        <td><div class="card">
-          <img class="card-img-top" src="holder.js/100x180/" alt="Title" />
-          <div class="card-body">
-            <h4 class="card-title">Table</h4>
-            <p class="card-text">Text</p>
-          </div>
-        </div>
-        </td>
-      </tr>
-    </tbody>
-  </table>
+<div class="card">
+  <img class="card-img-top" src="holder.js/100x180/" alt="Title" />
+  <div class="card-body">
+    <h4 class="card-title">Table1</h4>
+    <button class="btn btn-success"
+    data-bs-toggle="modal"
+    (click)="tableid=1"
+    data-bs-target="#additem"
+    >
+      add item
+    </button>
+    <app-order-summary></app-order-summary>
+  </div>
 </div>
 
 
-<!-- Modal trigger button -->
 
-
-<!-- Modal Body -->
-<!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
 <div
   class="modal fade"
   id="additem"
@@ -134,11 +40,13 @@
           class="btn-close"
           data-bs-dismiss="modal"
           aria-label="Close"
+          id="addwalaclose"
+          #addwalaclose
         ></button>
       </div>
       <div class="modal-body">
         <input class="form-control"
-        list="Menu" id="menu"
+        list="Menu" id="menu" [(ngModel)]="fooditem"
         placeholder="Select option">
     <datalist id="Menu">
         <option *ngFor="let f of foods" value="{{f.name}}">
@@ -153,20 +61,8 @@
         >
           Close
         </button>
-        <button type="button" class="btn btn-primary">Save</button>
+        <button type="button" class="btn btn-primary" (click)="addtotable(1)">Add to table</button>
       </div>
     </div>
   </div>
-</div>
-
-<!-- Optional: Place to the bottom of scripts -->
-<script>
-  const myModal = new bootstrap.Modal(
-    document.getElementById("modalId"),
-    options,
-  );
-</script>
-
-<div>
-  <p>rutuja</p>
 </div>
